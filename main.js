@@ -4,7 +4,7 @@ function Test()
 
 Test.allow_session = true;
 
-Test.prototype.list_events = async function(args)
+Test.prototype.main = async function(args)
 {
     // fetch the events
     var events_list = event.list();
